@@ -9,6 +9,17 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+# secrets
+secrets
+ca.pem
+ca.key
+ca.srl
+localhost.ext
+localhost.key
+localhost.csr
+localhost.crt
+localhost.decrypted.key
+
 # Runtime data
 pids
 *.pid

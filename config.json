@@ -1,0 +1,23 @@
+{
+  "protocol": "https",
+  "host": "127.0.0.1",
+  "port": "3000",
+  "cert": "localhost.crt",
+  "key": "localhost.decrypted.key",
+  "hubspotAppId": "1166678",
+  "hubspotClientId": "0d381ee4-f0ba-40b4-8594-2d19806e6d7c",
+  "hubspotClientSecret": "<to be inserter by CLI>",
+  "hubspotApiKey": "<to be inserter by CLI>",
+  "hubspotScopes": [
+    "automation",
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.notes.read",
+    "crm.objects.notes.write",
+    "crm.objects.owners.read",
+    "crm.lists.read",
+    "crm.lists.write",
+    "crm.import"
+  ],
+  "hubspotAuthWebhookUrl": "https://127.0.0.1:3000/hubspot-webhook-auth"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-hubspot-bridge",
+  "version": "1.0.0",
+  "description": "Tool that transfers unread messages from linkedin to hubpot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guseyn/linkedin-hubspot-bridge.git"
+  },
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guseyn/linkedin-hubspot-bridge/issues"
+  },
+  "homepage": "https://github.com/Guseyn/linkedin-hubspot-bridge#readme",
+  "dependencies": {
+    "@hubspot/api-client": "^7.1.2",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
